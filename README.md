@@ -13,28 +13,28 @@ A Python-based airport database management project that uses SQL to store, retri
 ## Technologies Used
 
 - **Programming Language:** Python
-- **Database:** SQL-based relational database
 - **Query Language:** SQL
-- **Core Concepts:** Database Management, Relational Database Design, Data Retrieval
+- **Database:** Relational Database
+- **Core Concepts:** Database Management, SQL Queries, Data Processing
 
 ## How It Works
 
-1. **Database Setup:** Creates or connects to a relational database containing airport-related information.
-2. **SQL Query Execution:** Executes SQL statements to retrieve or manage records.
-3. **Data Processing:** Uses Python to interact with the database and process query results.
-4. **Result Output:** Displays retrieved information through program output.
+1. **Database Connection:** The Python application connects to the airport database.
+2. **SQL Query Execution:** Executes SQL statements to retrieve and manage airport-related records.
+3. **Data Processing:** Python processes the results returned by the database.
+4. **Result Output:** Retrieved information is displayed through program output.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3
-- The SQL database system and Python database connector used by the project
-- Required database files or setup scripts
+- Required SQL database and Python database connector
+- Airport database files, if applicable
 
 ### Installation
 
-1. Clone the project repository:
+1. Clone the repository:
 
    ```bash
    git clone <repository-url>
@@ -46,28 +46,25 @@ A Python-based airport database management project that uses SQL to store, retri
    cd <project-directory>
    ```
 
-3. Set up the database using the provided SQL scripts or database files.
+3. Configure the database connection and initialize the database if required.
 
-4. Configure the database connection if necessary.
-
-5. Run the main Python script:
+4. Run the application:
 
    ```bash
-   python <main-file>.py
+   python project2.py
    ```
 
 ## Project Highlights
 
-This project demonstrates practical experience with Python and SQL for managing structured data.
+This project demonstrates practical experience in relational database management and Python-SQL integration.
 
 Key concepts include:
 
-- Relational database design
-- SQL queries and data retrieval
-- Python and database integration
-- Structured data management
-- Database connectivity
-- Data processing and query execution
+- SQL query execution
+- Relational database management
+- Python database connectivity
+- Structured data retrieval
+- Data processing and management
 
 ## Author
 
